@@ -1,0 +1,105 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+    color: #c9c9c9;
+    background-color: #000;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero section */
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../assets/purple patterns.webp');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Features section */
+.features {
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../assets/purple heart.png');
+    background-size: cover;
+}
+
+/* Typography */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #c9c9c9;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    color: #c9c9c9;
+}
+
+h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #c9c9c9;
+}
+
+.highlight {
+    color: #ff9900;
+}
+
+/* Lists */
+ul {
+    list-style-position: inside;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Feature card images */
+.feature-card img {
+    margin-bottom: 1rem;
+}
+
+/* Stream quality list */
+.stream-quality {
+    list-style: none;
+}
+
+/* Benefits section */
+.benefits ul {
+    list-style: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    color: #666;
+    text-decoration: underline;
+}

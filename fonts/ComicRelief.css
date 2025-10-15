@@ -1,0 +1,12 @@
+/* font.css */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+body {
+    font-family: "Comic Relief", system-ui !important; /* Force font globally */
+    font-style: normal !important; /* Force normal font style */
+}
+
+/* Additional font styles for other elements if necessary */
+h1, h2, h3, h4, h5, p, a {
+    font-family: "Comic Relief", system-ui !important; /* Ensures consistency */
+}
